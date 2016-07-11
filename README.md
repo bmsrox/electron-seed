@@ -7,7 +7,7 @@ Install
 
 	npm install -g grunt
 	npm install -g bower
-  npm install -g electron-prebuilt
+	npm install -g electron-prebuilt
 
 run into project folder
 
