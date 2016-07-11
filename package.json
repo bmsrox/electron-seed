@@ -1,0 +1,19 @@
+{
+  "name": "electron-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "author": {
+    "name": "Bruno Marinho",
+    "email": "bmsrox@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.6",
+    "grunt": "latest",
+    "grunt-electron-packager": "0.0.8"
+  }
+}
