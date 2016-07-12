@@ -2,9 +2,11 @@
   "name": "electron-seed",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "app/main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron app/main.js",
+    "package": "grunt",
+    "build": "./node_modules/asar/bin/asar pack ./build/app-linux-x64/resources/app ./build/app-linux-x64/resources/app.asar && rm -rf ./build/app-linux-x64/resources/app"
   },
   "author": {
     "name": "Bruno Marinho",

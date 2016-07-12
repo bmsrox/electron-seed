@@ -11,7 +11,7 @@ module.exports = function( grunt ) {
             out       : './build',
             icon      : '',
             name      : 'app',
-            ignore    : 'node_modules',
+            ignore    : ['node_modules', 'Gruntfile.js', 'bower.json', 'README.md', 'build', '.gitignore'],
             version   : '1.2.6', // set version of electron
             overwrite : true
           }

@@ -1,0 +1,11 @@
+{
+  "name": "electron-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "author": {
+    "name": "Bruno Marinho",
+    "email": "bmsrox@gmail.com"
+  },
+  "license": "ISC"
+}
