@@ -13,6 +13,7 @@
   ],
   "dependencies": {
     "angular": "angularjs#^1.5.7",
-    "angular-route": "^1.5.7"
+    "angular-route": "^1.5.7",
+    "Materialize": "materialize#^0.97.6"
   }
 }

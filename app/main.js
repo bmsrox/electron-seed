@@ -10,13 +10,16 @@ let mainWindow;
 
 function createWindow() {
 
-  let displays = electron.screen.getAllDisplays()
-  let externalDisplay = displays.find((display) => {
-   return display.bounds.x !== 0 || display.bounds.y !== 0
-  })
+  // let displays = electron.screen.getAllDisplays()
+  // let externalDisplay = displays.find((display) => {
+  //  return display.bounds.x !== 0 || display.bounds.y !== 0
+  // })
 
   //console.log(externalDisplay)
-  mainWindow = new BrowserWindow({ width: externalDisplay.workArea.width, height: externalDisplay.workArea.height })
+  mainWindow = new BrowserWindow({
+  //  width: externalDisplay.workArea.width,
+  //  height: externalDisplay.workArea.height
+  })
   mainWindow.loadURL('file://' + __dirname + '/index.html')
   mainWindow.webContents.openDevTools({mode:'bottom'})
 
