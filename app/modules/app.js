@@ -1,8 +1,6 @@
 'use strict';
 angular.module('app', [
-  'ngRoute',
-  'app.login',
-  'app.dashboard'
+  'ngRoute'
 ])
 .config(function($routeProvider) {
   $routeProvider

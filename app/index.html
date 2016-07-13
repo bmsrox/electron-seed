@@ -8,13 +8,17 @@
   </head>
   <body>
 
+    <a href="#/login">Login</a> | <a href="#/dashboard">Dashboard</a>
+
     <div data-ng-view></div>
 
     <script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
     <script type="text/javascript" src="../bower_components/angular-route/angular-route.min.js"></script>
 
-    <script type="text/javascript" src="assets/js/app.js"></script>
-    <script type="text/javascript" src="assets/js/controllers/login.js"></script>
-    <script type="text/javascript" src="assets/js/controllers/dashboard.js"></script>
+    <script type="text/javascript" src="modules/app.js"></script>
+    <script type="text/javascript" src="modules/authentication/AuthModule.js"></script>
+    <script type="text/javascript" src="modules/authentication/controllers/AuthController.js"></script>
+    <script type="text/javascript" src="modules/dashboard/DashboardModule.js"></script>
+    <script type="text/javascript" src="modules/dashboard/controllers/DashboardController.js"></script>
   </body>
 </html>
