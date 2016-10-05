@@ -16,6 +16,19 @@ module.exports = function( grunt ) {
             overwrite : true
           }
         },
+        'build-osx': {
+          options:{
+            platform  : 'darwin',
+            arch      : 'x64',
+            dir       : '.',
+            out       : './build',
+            icon      : '',
+            name      : 'app',
+            ignore    : ['node_modules', 'Gruntfile.js', 'bower.json', 'README.md', 'build', '.gitignore'],
+            version   : '1.2.6', // set version of electron
+            overwrite : true
+          }
+        },
         'build-win': {
           options:{
             platform  : 'win32',
